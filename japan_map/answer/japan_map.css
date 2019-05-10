@@ -1,0 +1,39 @@
+.map-container {
+  background-image: url("../japan_map.jpg");
+  background-size: cover;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #000;
+}
+
+.area-badge {
+  font-size: 15px;
+  padding: 4px 8px;
+  position: absolute;
+  right: 170px;
+  top: 385px;
+  color: #FFF;
+  background: #58BFBC;
+  border: 2px solid #039B8E;
+}
+
+.area-popup {
+  width: 150px;
+  padding: 10px;
+  position: absolute;
+  left: -2px;
+  top: 35px;
+  color: #000;
+  background: #FAFAFA;
+  border: 2px solid lightgrey;
+  display: none;
+}
+
+.area-badge:hover .area-popup {
+  display: block;
+}
+
+.area-popup:hover {
+  display: none !important;
+}
